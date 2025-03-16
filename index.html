@@ -1,19 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="Stylesheet" href="style.css">
-        <title>My Portfolio <p class></title>
-        <style>
-            .style {
-                color: lawngreen;
-                font-weight: bold;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <style>
+        /* Set background color to pink */
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style for the paragraph */
+        .style {
+            color: lawngreen;
+            font-weight: bold;
+        }
+
+        /* Make text responsive for mobile */
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Mobile-friendly adjustments */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
             }
-        </style>
-        </head>
-    <body>
-        <h1>About me</h1>
-        <p>Progress working on..</p>
-        <p class="style">This is a Style.</p>
-        <p>And this is a normal Paragraph.</p>
-    </body>
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p class="style">
+        I am 13 years old (turning 14 on May 10) and I am currently learning **HTML and CSS**.  
+        I am focused on mastering **web development** to create amazing websites.  
+    </p>
+</body>
 </html>
